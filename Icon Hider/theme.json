@@ -1,0 +1,100 @@
+{
+	"name": "Icon Hider",
+	"author": "Timeraa",
+	"manifest_version": 6,
+	"target": "Other",
+	"version": "v1.0.0",
+	"description": "Hide nasty icons in the Steam Big Picture Mode Overlay.",
+	"patches": {
+		"Search": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/search.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Notifications": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/notifications.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Wifi": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/wifi.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Power": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/power.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Clock": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/clock.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Profile": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/profile.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"Steam": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/steam.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"A": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/a.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"B": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/b.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		}
+	}
+}
