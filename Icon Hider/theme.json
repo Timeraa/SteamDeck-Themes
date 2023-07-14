@@ -3,7 +3,7 @@
 	"author": "Timeraa",
 	"manifest_version": 6,
 	"target": "Other",
-	"version": "v1.0.0",
+	"version": "v1.1.0",
 	"description": "Hide nasty icons in the Steam Big Picture Mode Overlay.",
 	"patches": {
 		"Search": {
@@ -12,6 +12,16 @@
 			"values": {
 				"No": {
 					"icons/search.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
+		"SD": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/sd.css": ["Steam Big Picture Mode"]
 				},
 				"Yes": {}
 			}
