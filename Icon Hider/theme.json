@@ -96,6 +96,16 @@
 				"Yes": {}
 			}
 		},
+		"Game Recording": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {
+					"icons/gamerecording.css": ["Steam Big Picture Mode"]
+				},
+				"Yes": {}
+			}
+		},
 		"A": {
 			"type": "checkbox",
 			"default": "Yes",
