@@ -31,7 +31,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/notifications.css": ["Steam Big Picture Mode"]
+					"icons/notifications.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -41,7 +41,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/wifi.css": ["Steam Big Picture Mode"]
+					"icons/wifi.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -51,7 +51,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/power.css": ["Steam Big Picture Mode"]
+					"icons/power.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -61,7 +61,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/clock.css": ["Steam Big Picture Mode"]
+					"icons/clock.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -71,7 +71,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/profile.css": ["Steam Big Picture Mode"]
+					"icons/profile.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -91,7 +91,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/updategear.css": ["Steam Big Picture Mode"]
+					"icons/updategear.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
@@ -101,7 +101,7 @@
 			"default": "Yes",
 			"values": {
 				"No": {
-					"icons/gamerecording.css": ["Steam Big Picture Mode"]
+					"icons/gamerecording.css": ["Steam Big Picture Mode", "QuickAccess"]
 				},
 				"Yes": {}
 			}
